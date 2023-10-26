@@ -4,7 +4,9 @@ const userInput = document.querySelector('#user-input');
 const submitBtn = document.querySelector('#submit-btn');
 const todosDiv = document.querySelector('.list-item__container');
 
-submitBtn.addEventListener('click', (event) => {
+
+submitBtn.addEventListener('click', (event) => { // hay que cambiarlo por 'submit'
+
     event.preventDefault()
     const userInputValue = userInput.value;
     userInput.value = '';
@@ -15,5 +17,5 @@ submitBtn.addEventListener('click', (event) => {
     listItem.addEventListener('dblclick', () => {
         listItem.classList.toggle('list-item__done');
     })
-    
+
 })
