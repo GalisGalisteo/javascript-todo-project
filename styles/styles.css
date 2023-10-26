@@ -188,6 +188,7 @@ a {
   justify-content: space-between;
   align-items: center;
   user-select: none;
+  margin-right: 0.8rem;
 }
 
 .list-item__container {
@@ -195,10 +196,6 @@ a {
   font-size: 1.8rem;
   font-weight: 300;
   align-items: baseline;
-}
-
-.list-item__container>*:first-child {
-  margin-right: 0.8rem;
 }
 
 .list-item:hover {

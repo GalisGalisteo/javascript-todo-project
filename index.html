@@ -27,11 +27,11 @@
     </div>
 
     <div class="container">
-        <div id="todos"></div>
         <form id="todo-form">
-            <input type="text" class="input" placeholder="New Todo" name="addTodo">
-            <input type="submit" class="button" value="Add Todo">
+            <input type="text" class="input" placeholder="New Todo" name="addTodo" id="user-input">
+            <input type="submit" class="button" value="Add Todo" id="submit-btn">
         </form>
+        <div id="todos" class="list-item__container"></div>
     </div>
 
     <script src="https://unpkg.com/uuid@latest/dist/umd/uuidv4.min.js"></script>
